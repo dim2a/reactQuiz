@@ -7,8 +7,7 @@ import * as serviceWorker from './serviceWorker';
 import {createStore, compose, applyMiddleware} from 'redux'
 import {Provider} from 'react-redux'
 import rootReducer from './store/reducers/rootReducer'
-import thunt from 'redux-thunk'
-import thunk from 'redux-thunk';
+import thunk from 'redux-thunk'
 
 const composeEnhancers =
   typeof window === 'object' &&
